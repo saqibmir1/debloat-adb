@@ -52,6 +52,8 @@ adb shell pm uninstall --user 0 com.duokan.phone.remotecontroller # Mi Remote co
 adb shell pm uninstall --user 0 com.miui.android.fashiongallery # Carousel wallpapers
 adb shell pm uninstall --user 0 com.miui.videoplayer # Mi Videos
 adb shell pm uninstall --user 0 com.miui.player # Mi Music
+adb shell pm uninstall --user 0 com.miui.bugreport # Bug reporitng
+adb shell pm uninstall --user 0 com.miui.analytics # MIUI Analytics (spyware)
 
 # Disconnect ADB
 adb kill-server
